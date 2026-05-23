@@ -300,8 +300,3 @@ dhclient eth0  # Получить адрес автоматически
 New-NetIPAddress -IPAddress 192.168.1.10 -PrefixLength 24 -InterfaceAlias "Ethernet"
 Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 8.8.8.8
 ```
-[Выполнение Варианта№1](img/lab2_3)
-
-
-
-[.](img/lab2_4)
